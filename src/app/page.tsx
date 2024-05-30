@@ -17,7 +17,7 @@ export default async function Home() {
                     <div>
                         <h1 className="text-5xl font-bold">{products[0].name}</h1>
                         <p className="py-6">{products[0].description}</p>
-                        <Link href={"/products"+products[0].id} className="btn btn-primary">Check it out  </Link>
+                        <Link href={"/products/"+products[0].id} className="btn btn-primary">Check it out  </Link>
                     </div>
                 </div>
             </div>
